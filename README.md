@@ -17,3 +17,4 @@
 - Tablolar arası bağlantı Spring annotasyonları ile gerçekleştirildi.
 - Her Method yalnızca bir düzlemde işlem yapmaktadır.
 - İki adet sorgu türü kullanıldı. JPA Query ve JPQL Query(@Query annotation).
+- Ekleme,silme,güncelleme,listeleme işlemleri Swagger aracı ile yapılabilir.
