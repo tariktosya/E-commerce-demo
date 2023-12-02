@@ -45,8 +45,8 @@ public class CustomerController {
         return customerService.getByNameLike(name);
     }
 
-    @GetMapping("/get-by-order")
-    public List<CustomerResponseDto> getByOrder(){
+    @GetMapping("/get-by-order-is-empty")
+    public List<CustomerResponseDto> getByOrderIsEmpty(){
         return customerService.getByOrderListIsNull();
     }
 }
